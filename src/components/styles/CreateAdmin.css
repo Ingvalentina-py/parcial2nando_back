@@ -1,0 +1,73 @@
+/* Estilos para el contenedor de creación de administrador */
+.create-admin-container {
+    width: 400px; /* Ampliar el ancho del contenedor */
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #ffffff; /* Color de fondo blanco */
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.create-admin-container h1 {
+    text-align: center;
+    color: #ff8a00; /* Color naranja */
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.create-admin-container h4 {
+    color: #333; /* Color de texto gris oscuro */
+    margin: 10px 0 5px;
+}
+
+.create-admin-container input {
+    width: 100%;
+    padding: 12px; /* Aumentar el padding para más comodidad */
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo claro para entradas */
+    transition: border-color 0.3s ease; /* Transición suave al enfocar */
+}
+
+.create-admin-container input:focus {
+    outline: none;
+    border-color: #ff8a00; /* Color de borde al enfocar */
+    box-shadow: 0px 0px 6px rgba(255, 138, 0, 0.3); /* Sombra de enfoque */
+}
+
+.create-admin-container .btn {
+    width: 100%;
+    padding: 12px; /* Aumentar el padding para más comodidad */
+    background-color: #ff8a00; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    border-radius: 30px; /* Bordes redondeados */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease; /* Transición suave para el botón */
+}
+
+.create-admin-container .btn:hover {
+    background-color: #ff7a00; /* Color del botón al pasar el mouse */
+}
+
+.create-admin-container .btn:active {
+    background-color: #e06c00; /* Color del botón al hacer clic */
+}
+
+/* Estilo para mensajes de éxito y error */
+.create-admin-container p {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.create-admin-container p:first-of-type {
+    color: green; /* Color para mensajes de éxito */
+}
+
+.create-admin-container p:last-of-type {
+    color: red; /* Color para mensajes de error */
+}

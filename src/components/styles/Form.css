@@ -1,0 +1,89 @@
+/* Form.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Fondo suave de azul azulejo */
+}
+
+form {
+    background-color: #ffffff; /* Fondo blanco del formulario */
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #0277bd; /* Azul azulejo profundo */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #01579b; /* Azul azulejo más oscuro */
+    margin: 15px 0 5px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px;
+    border: 1px solid #81d4fa; /* Borde azul suave */
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #e1f5fe; /* Fondo azul claro en los inputs */
+    color: #0277bd; /* Texto en azul oscuro */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #0288d1; /* Borde azul más profundo al enfocar */
+    outline: none;
+    box-shadow: 0px 0px 6px rgba(2, 136, 209, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #0288d1; /* Botón azul azulejo */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0277bd; /* Azul más oscuro en hover */
+}
+
+button[type="button"] {
+    background-color: #81d4fa; /* Azul suave para el botón de registro */
+    color: #01579b; /* Azul oscuro para el texto */
+}
+
+button[type="button"]:hover {
+    background-color: #4fc3f7; /* Azul un poco más intenso en hover */
+}
+
+p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #d32f2f; /* Rojo suave para mensajes de error */
+}
