@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Set up axios defaults
-axios.defaults.baseURL = 'https://parcialdos-back.vercel.app/api'; // Set your API base URL
+axios.defaults.baseURL = 'https://parcial2nando-front.vercel.app/'; // Set your API base URL
 
 function App() {
   const [user, setUser] = useState(null);

@@ -14,7 +14,7 @@ function CreateAccount() {
   const handleCreateAccount = (event) => {
     event.preventDefault();
 
-    fetch('https://parcialdos-back.vercel.app/api/registro', {
+    fetch('https://parcial2nando-front.vercel.app/api/registro', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

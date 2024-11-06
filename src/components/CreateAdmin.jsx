@@ -13,7 +13,7 @@ function CreateAdmin() {
         event.preventDefault();
 
         try {
-            const response = await fetch('https://parcialdos-back.vercel.app/api/createAdmin', {
+            const response = await fetch('https://parcial2nando-front.vercel.app//api/createAdmin', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

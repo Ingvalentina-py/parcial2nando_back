@@ -1,50 +1,66 @@
-/* Estilos para el formulario de crear cuenta */
+/* CreateAccount.css */
 .create-account-form {
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #f7f7f7;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .create-account-form h2 {
-    color: #ff8a00;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .create-account-form label {
-    display: block;
-    margin: 10px 0 5px;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .create-account-form input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-  }
-  
-  .create-account-form button {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 25px;
-    background-color: #ff8a00;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .create-account-form button:hover {
-    background-color: #ff7a00;
-  }
-  
+  max-width: 450px;
+  padding: 25px;
+  margin: 0 auto;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.create-account-form h2 {
+  color: #4a148c;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.create-account-form label {
+  font-weight: bold;
+  color: #4a148c;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.create-account-form input[type="text"],
+.create-account-form input[type="date"],
+.create-account-form input[type="email"],
+.create-account-form input[type="tel"],
+.create-account-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f3e5f5;
+  font-size: 1rem;
+}
+
+.create-account-form button {
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+  background-color: #6a1b9a;
+}
+
+button[type="submit"]:hover {
+  background-color: #4a148c;
+}
+
+button[type="button"] {
+  background-color: #8e24aa;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #6a1b9a;
+}
